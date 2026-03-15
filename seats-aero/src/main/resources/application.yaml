@@ -1,5 +1,10 @@
 spring:
   application:
     name: seats-aero
+  datasource:
+    url: jdbc:postgresql://localhost:5432/greetings_db
+    username: postgres
+    password: <SECRET_PASSWORD>
+    driver-class-name: org.postgresql.Driver
 server:
   port: 8081
